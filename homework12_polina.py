@@ -231,10 +231,10 @@ class Bus:
                 if passenger == surname:
                     seat_number = seat
                     break
-                if seat_number is not None:
-                    del self.passengers[seat_number]
-                else:
-                    print(f"{surname} не найден")
+            if seat_number is not None:
+                del self.passengers[seat_number]
+            else:
+                print(f"{surname} не найден")
         self._update_free_seats()
 
     def change_speed(self, delta):
