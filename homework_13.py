@@ -37,9 +37,9 @@ print()
 def cycle_123():
     """Генераторная функция, бесконечно выдаёт 1-2-3"""
     # TODO: напишите генератор
-    list = [1, 2, 3]
+    my_list = [1, 2, 3]
     while True:
-        for number in list:
+        for number in my_list:
             yield number
 
 # Тест:
@@ -143,7 +143,7 @@ class Animal(ABC):
 class Dog(Animal):
     def speak(self):
         # TODO: реализуйте метод
-        print("woof-woof")
+        return woof-woof
 
 
 class Cat(Animal):
@@ -204,7 +204,7 @@ class Division(OperationStrategy):
     def execute(self, a, b):
         # TODO: реализуйте метод
         if b == 0:
-            return "Ошибка: деление на ноль"
+            return ZeroDivisionError("Ошибка: деление на ноль")
         return a / b
 
 
