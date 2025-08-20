@@ -67,7 +67,7 @@ WHERE Name = 'Ellen Adams';
 -- 📝 Напишите здесь ALTER TABLE
 -- Пример:
 -- ALTER TABLE Employees ADD COLUMN ...;
-ALTER TABLE Employees ADD COLUMN HireDate TEXT;
+ALTER TABLE Employees ADD COLUMN HireDate DATE;
 
 -- ✅ TODO 5: Добавьте дату приема на работу для всех сотрудников
 
@@ -114,7 +114,7 @@ SELECT AVG(Salary) FROM Employees;
 -- 📝 Напишите здесь DROP TABLE
 -- Пример:
 -- DROP TABLE Employees;
-DROP TABLE Employees;
+-- DROP TABLE Employees;
 
 -- 🎯 *Задание с повышенным уровнем сложности:*
 -- Реализуйте задачи 6–9 в виде ХРАНИМЫХ ФУНКЦИЙ или ПРОЦЕДУР.
