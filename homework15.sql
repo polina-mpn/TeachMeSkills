@@ -66,7 +66,7 @@ INSERT INTO authors (id, first_name, last_name) VALUES
 (1, 'William', 'Shakespeare'),
 (2, 'Jane', 'Austen'),
 (3, 'Charles', 'Dickens'),
-(4, 'Agatha ', 'Christie');
+(4, 'Agatha', 'Christie');
 
 -- TODO: Добавьте несколько книг в таблицу books, указывая авторов из authors
 INSERT INTO books (id, title, author_id, publication_year) VALUES
