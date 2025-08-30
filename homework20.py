@@ -40,6 +40,8 @@ CREATE TABLE IF NOT EXISTS wishes (
     message TEXT
 );
 """
+cur.execute(create_table_query)
+conn.commit()
 
 @app.route("/", methods=["GET", "POST"])
 def index():
